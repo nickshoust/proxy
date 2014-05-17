@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="noindex, follow"> 
+<title>Nick Shoust Proxy on Google App Engine</title>
+<style>
+body {
+	font: 14px Verdana, Arial, Helvetica, sans-serif;
+}
+.box {
+	width:500px;
+	margin: 10px auto;
+	text-align: center;
+	padding: 20px;
+	border-top: 1px solid #CCCCCC;
+	border-right: 2px solid #CCCCCC;
+	border-bottom: 2px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+}
+h1 {
+	font: bold normal 1.2em Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	margin: 5px 5px 20px;
+	padding: 10px;
+	border-top: 1px solid #eee;
+	border-right: 0px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	border-left: 0px solid #ddd;
+}
+.footer {
+	font: .9em Verdana, Arial, sans-serif;
+	margin: 8px;
+	padding: 12px 8px 8px;
+	text-align: left;
+}
+.credit {
+	font: .6em Verdana, Arial, sans-serif;
+	margin: 8px;
+	padding: 8px;
+	text-align: center;
+}
+input.txt {
+	background:#F9f9f9 url(none) repeat scroll 0%;
+	border:1px solid #999999;
+	font-size:0.9em;
+	padding:5px;
+	width:250px;
+}
+input.btn {
+	font-size:0.9em;
+	font-family: Arial, sans-serif;
+	width: 100px;
+	margin: 2px 0;
+	padding: 4px;
+}
+</style>
+</head>
+<body>
+<div class="box">
+  <h1>My Proxy Server written in Python</h1>
+  <center>
+    <form action="" method="get" accept-charset="utf-8">
+      <input name="url" type="text" class="txt" id = "input" value="url.." onfocus="this.value='';" />
+      <input type="submit" class="btn" value="Go" />
+    </form>
+  </center>
+  <p class="footer">A URL proxy using Google App Engine created on May 7, 2010.<img src="https://developers.google.com/appengine/images/appengine-noborder-120x30.gif" alt="Powered by Google App Engine" /></p>
+  
+</div>
+
+<!-- Start of Woopra Code -->
+<script type="text/javascript">
+function woopraReady(tracker) {
+    tracker.setDomain('nickshoust.appspot.com');
+    tracker.setIdleTimeout(300000);
+    tracker.track();
+    return false;
+}
+(function() {
+    var wsc = document.createElement('script');
+    wsc.src = document.location.protocol+'//static.woopra.com/js/woopra.js';
+    wsc.type = 'text/javascript';
+    wsc.async = true;
+    var ssc = document.getElementsByTagName('script')[0];
+    ssc.parentNode.insertBefore(wsc, ssc);
+})();
+</script>
+<!-- End of Woopra Code -->
+
+</body>
+</html>
